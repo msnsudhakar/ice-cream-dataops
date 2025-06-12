@@ -1,8 +1,7 @@
 environment:
-  name: prod # prod, staging, dev, test, qa
-  project: cdf-bootcamp-67-prod # ex. cdf-bootcamp-01-test
-  validation-type: prod # prod, staging, dev, test, qa
-  selected:
+  name: prod 
+  project: cdf-bootcamp-67-prod 
+  validation-type: prod
 
 variables:
   modules:
@@ -12,7 +11,7 @@ variables:
       icapi_space_name: icapi_dm_space
 
       data_foundation:
-        data_developer_source_id: 185b818d-bdd3-4b9c-99a7-a5ee3f0bd9f1
+        data_developer_source_id: dbaa2f63-3a54-451e-9f17-c0e064ec0525
 
       ice_cream_api:
         icapi_extractors_source_id: a3224b2a-a408-4510-bb34-18b29ecdb5af
